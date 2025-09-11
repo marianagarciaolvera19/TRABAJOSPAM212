@@ -1,8 +1,9 @@
-//Creamos comparaciones 
+//Con las mismas comparaciones ejemplificamos un caso de inicio de sesión
 
-let numberOne = 100;
-let numberTwo = 500;
+let passwordBD = 'pepe123'
+let input = 'dsgsfgsfg'
 
-let result = numberOne > numberTwo;
+let result = input == passwordBD;
 
 console.log(result);
+
