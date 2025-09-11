@@ -1,15 +1,8 @@
-var nameuser = 'john';
-let lastname = 'carter';
+//Creamos comparaciones 
 
-//reasignamos el valor de la variable nameuser
+let numberOne = 100;
+let numberTwo = 500;
 
-nameuser = 'pepe';
+let result = numberOne > numberTwo;
 
-// Agregamos más cosas
-
-const PI = 3.1415;
-
-console.log(PI)
-
-//cameIcase
-let userName = 'gordon';
+console.log(result);
