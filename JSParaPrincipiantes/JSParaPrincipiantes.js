@@ -1,42 +1,15 @@
-console.log('this is a string');
+var nameuser = 'john';
+let lastname = 'carter';
 
-// Tipos de datos
-"Hello World" //string
-'Hello World' // string
+//reasignamos el valor de la variable nameuser
 
+nameuser = 'pepe';
 
-100000  // number
--2.3
+// Agregamos más cosas
 
-// boolean
-true 
-false
+const PI = 3.1415;
 
-//array
+console.log(PI)
 
-['joe', 'ryan', 'martha']
-[1, 2, 3]
-[true, false, true, false]
-
-//object
-
-'ryan'
-70.4
-14 
-true 
-
-{
-    "username": 'ryan',
-    "score": 70.4,
-    "hours": 14,
-    "proffesional": true
-    "friends": [ , , ,]
-}
-
-{
-    "username": 'joe',
-    "score": 0.4,
-    "hours": 1,
-    "proffesional": false
-    "friends": [ , , ,]
-}
+//cameIcase
+let userName = 'gordon';
