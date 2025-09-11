@@ -5,5 +5,14 @@ let input = 'dsgsfgsfg'
 
 let result = input == passwordBD;
 
+if (result === true) {
+    console.log('Login correcto');
+
+}
+
+if (result === false) {
+        console.log('Login incorrecto');
+}
+
 console.log(result);
 
