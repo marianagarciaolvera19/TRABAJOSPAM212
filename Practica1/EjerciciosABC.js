@@ -1,22 +1,15 @@
-/* Ejercicio A: Corrige el siguiente código para que siga las buenas prácticas de JavaScript
-moderno (usa let y const en lugar de var) y asegúrate de que las variables no se
-puedan reasignar si no es necesario.
+/* Ejercicio B: Convierte esta función tradicional a una arrow function que haga exactamente lo
+mismo:
 
-var nombre = "Armando";
-var edad = 25;
-
-nombre = "Ana Maria";
-
-var saludo = "Hola, " + nombre + ". Tienes " + edad + "años."; */
+function cuadrado(numero) {
+    return numero * numero;
+}*/
 
 
-let nombre = "Armando";
-let edad = 25;
+let cuadrado = (numero) => {
+    return numero * numero;
+};
 
-nombre = "Ana Maria";
-
-let saludo = "Hola, " + nombre + ". Tienes " + edad + " años.";
-
-
-console.log(saludo)
-
+console.log(cuadrado(5));
+console.log(cuadrado(7));
+console.log(cuadrado(9));
