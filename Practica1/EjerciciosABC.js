@@ -1,15 +1,9 @@
-/* Ejercicio B: Convierte esta función tradicional a una arrow function que haga exactamente lo
-mismo:
+/* Ejercicio C: Crea una funcióbn arrow llamada saludoPersonalizado que reciba dos parametros: nombre y edad y retorne una cadena como la siguiente: 
 
-function cuadrado(numero) {
-    return numero * numero;
-}*/
+Hola, me llamo Isay y tengo 37 años.*/
 
-
-let cuadrado = (numero) => {
-    return numero * numero;
+let saludoPersonalizado = (nombre, edad) => {
+    return "Hola, me llamo " + nombre + " y tengo " + edad + " años.";
 };
 
-console.log(cuadrado(5));
-console.log(cuadrado(7));
-console.log(cuadrado(9));
+console.log(saludoPersonalizado("Mariana", 19)); 
