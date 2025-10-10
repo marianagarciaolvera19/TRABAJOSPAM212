@@ -19,3 +19,4 @@ personas.forEach (function(persona){
 
 let sumar = personas.reduce((Suma, persona) => Suma + persona.edad, 0);
 console.log(sumar);
+
