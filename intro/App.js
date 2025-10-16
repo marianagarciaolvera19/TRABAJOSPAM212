@@ -1,9 +1,10 @@
 import ContadorScreen from './screens/ContadorScreen'; //Desde la carpeta screen importamos ContadorScreen
-export default function App() {
+import MenuScreen from './screens/MenuScreen';
 
+export default function App() {
   return (
-    <ContadorScreen></ContadorScreen>
-);
+    <MenuScreen></MenuScreen>
+  );
 }
 
 
