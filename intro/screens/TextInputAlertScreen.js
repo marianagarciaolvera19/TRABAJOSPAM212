@@ -1,10 +1,10 @@
 import {Text, StyleSheet, View} from 'react-native'
 
 
-export default function BotonesScreen() {
+export default function TextInputAlertScreen() {
     return (
       <View>
-        <Text>BotonesScreen Proximamente...</Text>
+        <Text>TextInputAlert Proximamente...</Text>
       </View>
     )
 }
