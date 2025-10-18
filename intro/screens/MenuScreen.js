@@ -1,8 +1,8 @@
 import { Text, StyleSheet, View, Button } from 'react-native'
-import React, {useState } from 'react'
+import React, { useState } from 'react'
 import ContadorScreen from './ContadorScreen';
 import BotonesScreen from './Botones/BotonesScreen';
-import TextInputAlertScreen from './TextInputAlertScreen';
+import TextScreen from './TextScreen';
 import ImageBackgroungSplashScreen from './ImageBackgroungSlapshScreen';
 import ScrollViewScreen from './ScrollViewScreen';
 import ActivityIndicatorScreen from './ActivityIndicatorScreen';
@@ -15,13 +15,13 @@ export default function MenuScreen() {
 
     switch(screen){
         case 'contador':
-            return <ContadorScreen/>;
+            return <ContadorScreen/>
         case 'switch':
             return <BotonesScreen/>
         case 'textinputalert':
-            return <TextInputAlertScreen/>;
+            return <TextScreen/>
         case 'imagebackgroungsplash':
-            return <ImageBackgroungSplashScreen/>;
+            return <ImageBackgroungSplashScreen/>
         case 'scrollview':
             return <ScrollViewScreen/>
         case 'activityindicator':
