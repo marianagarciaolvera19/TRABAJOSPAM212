@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import ContadorScreen from './ContadorScreen';
 import BotonesScreen from './Botones/BotonesScreen';
 import TextScreen from './TextScreen';
-import ImageBackgroungSplashScreen from './ImageBackgroungSlapshScreen';
+import ImgBackSplashScreen from './ImgBackSplashScreen';
 import ScrollViewScreen from './ScrollViewScreen';
 import ActivityIndicatorScreen from './ActivityIndicatorScreen';
 import FlatListSectionListScreen from './FlatListSectionList';
@@ -21,7 +21,7 @@ export default function MenuScreen() {
         case 'textinputalert':
             return <TextScreen/>
         case 'imagebackgroungsplash':
-            return <ImageBackgroungSplashScreen/>
+            return <ImgBackSplashScreen/>
         case 'scrollview':
             return <ScrollViewScreen/>
         case 'activityindicator':
