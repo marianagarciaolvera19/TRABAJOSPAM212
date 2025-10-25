@@ -9,6 +9,7 @@ import ActivityIndicatorScreen from './ActivityIndicatorScreen';
 import FlatListSectionListScreen from './FlatListSectionList';
 import ModalScreen from './ModalScreen';
 import BottomSheetScreen from './BottomSheet';
+import Repaso1 from './Repaso1';
 
 export default function MenuScreen() {
     const [screen, setScreen]=useState('menu'); //Todos los estados deben tener dos cacracteristicas, variables y función. Quiero que al momento que cargue aparezca menú
@@ -18,6 +19,8 @@ export default function MenuScreen() {
             return <ContadorScreen/>
         case 'switch':
             return <BotonesScreen/>
+        case 'repasito':
+            return <Repaso1/>
         case 'textinputalert':
             return <TextScreen/>
         case 'imagebackgroungsplash':
@@ -40,6 +43,7 @@ export default function MenuScreen() {
                         <View style={styles.botonesMenu}>
                         <Button color='#ff009dff' onPress={()=>setScreen('contador')} title='Pract: Contador'/>
                         <Button color='#ff009dff' onPress={()=>setScreen('switch')} title='Pract: Botones Switch'/>
+                        <Button color='#ff009dff' onPress={()=>setScreen('repasito')} title='Repaso'/>
                         <Button color='#ff009dff' onPress={()=>setScreen('textinputalert')} title='Pract: Text Input y Alert'/>
                         <Button color='#ff009dff' onPress={()=>setScreen('imagebackgroungsplash')} title='Pract: ImageBackgroung y SplashScreen'/>
                         <Button color='#ff009dff' onPress={()=>setScreen('scrollview')} title='Pract: ScrollView'/>
