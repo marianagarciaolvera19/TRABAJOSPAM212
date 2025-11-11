@@ -10,7 +10,6 @@ import FlatListSectionListScreen from './FlatListSectionList';
 import ModalScreen from './ModalScreen';
 import BottomSheetScreen from './BottomSheet';
 import Repaso1 from './Repaso1';
-
 export default function MenuScreen() {
     const [screen, setScreen]=useState('menu'); //Todos los estados deben tener dos cacracteristicas, variables y función. Quiero que al momento que cargue aparezca menú
 
